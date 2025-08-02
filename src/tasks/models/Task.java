@@ -5,6 +5,7 @@ public class Task {
 private String name;
 private String description;
 private boolean status;
+public Task(){}
 
 public Task (String name, String description, boolean status) {
 this.name = name;
